@@ -11,12 +11,11 @@
     <properties>
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
+	<sonar.organization>venkiikumar</sonar.organization>
+  	<sonar.host.url>https://sonarcloud.io</sonar.host.url>
     </properties>
 
-<properties>
-  <sonar.organization>venkiikumar</sonar.organization>
-  <sonar.host.url>https://sonarcloud.io</sonar.host.url>
-</properties>
+
 
     <build>
         <plugins>
