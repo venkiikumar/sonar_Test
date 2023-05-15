@@ -26,7 +26,7 @@ public class TC01MainPage extends TestBase {
         openURL("https://www.goibibo.com");
         test.log(Status.INFO, "Open URL");
         logger.info("Open URL");
-	System.out.println("URL Launched");
+	
 
         String expectedTitle = "Goibibo - Best Travel Website. Book Hotels, Flights, Trains, Bus and Cabs with upto 50% off";
         String actualTitle = driver.getTitle();
