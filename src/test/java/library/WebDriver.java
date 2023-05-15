@@ -29,6 +29,7 @@ public class WebDriver extends TestBase {
 
         WebElement element = driver.findElement(locator);
         element.clear();
+	System.out.println("element cleared");
     }
 
     public void clickOnButton(By locator) {
